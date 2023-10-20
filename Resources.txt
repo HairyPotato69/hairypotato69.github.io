@@ -2,15 +2,20 @@ These are resources you can refer to as a start
 YOUTUBE
 FINITE STATE MACHINE
 https://www.youtube.com/watch?v=ow_Lum-Agbs&t=129s&pp=ygUUZmluaXRlIHN0YXRlIG1hY2hpbmU%3D
+https://youtu.be/oqFbZoA2lnU?si=yzyADz8gTwGFu8Ya
 BASIC SIDESCROLLER
 https://www.youtube.com/watch?v=43c-Sm5GMbc&t=1059s
 https://www.youtube.com/watch?v=fuGiJdMrCAk
 https://www.youtube.com/watch?v=NVAXjTzqTyE&t=1151s
+MOVEMENT
+https://www.youtube.com/watch?v=Bsy8pknHc0M
+https://www.youtube.com/watch?v=Oet5jqoX14E&t=380s
 CHANNEL
 https://www.youtube.com/@uheartbeast
 
 WEBSITE
 FINITE STATE MACHINE
 https://www.sandromaglione.com/techblog/how-to-implement-state-machine-pattern-in-godot
+https://youtu.be/oqFbZoA2lnU?si=yzyADz8gTwGFu8Ya
 GODOT MANUAL
 https://docs.godotengine.org/en/stable/about/introduction.html
