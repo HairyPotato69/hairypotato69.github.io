@@ -2,6 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+    --red: #ef233c;
+    --darkred: #c00424;
+    --platinum: #e5e5e5;
+    --black: #2b2d42;
+    --white: #f7f7f7;
+    --thumb: #edf2f4;
+  }
+
+
 *{
     margin: 0;
     padding:0;
@@ -45,7 +55,7 @@ nav{
 a{
     color:black;
     text-decoration: none;
-    text-decoration-color:white;
+    text-decoration-color:var(--white);
 }
 
 a:hover{
@@ -94,7 +104,7 @@ a:hover{
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: var(--white);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -234,7 +244,7 @@ section{
     cursor: pointer;
     border:none;
     background-color: black;
-    color:white;
+    color:var(--white);
 }
 
 /* .btn-color-1, 
@@ -264,6 +274,7 @@ section{
 #about{
     position: relative;
 }
+
 .about-containers{
     gap: 2rem;
     margin-bottom: 2rem;
@@ -293,7 +304,7 @@ section{
 .details-containers{
     padding: 1.5rem;
     flex:1;
-    background: white;
+    background: var(--white);
     border-radius:2rem;
     border:black 0.1rem solid;
     /* border-color: ; */
@@ -309,4 +320,81 @@ section{
     height:400px;
     width: 400px;
     margin: auto 0;
+}
+
+/* Experience section */
+#skills{
+    position: inherit;
+}
+
+.card-container{
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+}
+
+.card:not(:last-child){
+    margin-right:10px;
+}
+
+.card:hover{
+    color:var(--white);
+    background: var(--darkred);
+}
+
+.card .card-title{
+    font-size: 20px;
+}
+
+.card .card-content{
+    margin: 20px 0;
+    max-width: 85%;
+}
+
+.card .card-link-wrapper{
+    margin-top: auto;
+}
+
+.card .card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: var(--red);
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+
+.cards::-webkit-scrollbar{
+    height: 12px;
+}
+
+.cards::-webkit-scrollbar-thumb{
+    background: var(--darkened);
+}
+.cards::-webkit-scrollbar-track{
+    background: var(--thumb);
+}
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track{
+    border-radius: 92px;
 }
