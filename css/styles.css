@@ -184,6 +184,7 @@ section{
 
 .hero__text__p1{
     text-align: center;
+    color: #626567 ;
 }
 
 .hero__text__p2{
@@ -398,12 +399,12 @@ section{
 
 /* Experience */
 
-#experience{
+#skills{
     position:relative;
 }
 
 .experience-sub-title{
-    color:black;
+    color:  #626567 ;
     font-weight: 600;
     font-size:1.75rem;
     margin-bottom: 2rem;
@@ -443,8 +444,8 @@ article .icon{
 }
 
 .color-container{
-    border-color: black;
-    background-color: white;
+    border-color:   #b2babb ;
+    background-color:    #f8f9f9 ;
 }
 
 .project-img{
